@@ -26,9 +26,15 @@
         <link rel="stylesheet" href="styles/main.css">
     </head>
     <body>
-        @@include("../blocks/modules/header/header.html")
-        @@include("../blocks/modules/footer/footer.html")
+        <div class="bg-layout">
+            <div class="container-fluid">
+                <div class="container">
+                    @@include("../blocks/modules/header/header.html")
+                    @@include("../blocks/modules/footer/footer.html")
+                </div>
+            </div>
+        </div>
         <script src="js/main.js"></script>
-        <script src="js/vendor.js"></script>
+<!--        <script src="js/vendor.js"></script>-->
     </body>
 </html>

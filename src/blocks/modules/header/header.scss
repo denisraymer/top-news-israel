@@ -1,0 +1,40 @@
+.header {
+    @include row-flex();
+    align-items: center;
+
+    &__content {
+        @include col();
+        @include size-md(24);
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__title {
+        font: {
+            size: 30px;
+            family: $font-intro-regular;
+        }
+        text-align: center;
+        padding: 15px 0 20px;
+    }
+
+    &__chart {
+        @extend %col-center;
+    }
+
+    &__form {
+        @extend %col-center;
+    }
+
+    &__search {
+        @extend %col-center;
+    }
+
+    &_content-center {
+        justify-content: center;
+    }
+
+    &__button {
+        margin-right: 20px;
+    }
+}
