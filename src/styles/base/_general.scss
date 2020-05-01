@@ -20,10 +20,10 @@ a {
     @include md(max-width, rem(690));
     @include lg(max-width, rem(930));
     @include xl(max-width, rem(1190));
+}
 
-    &-fluid {
-        background-color: #fff;
-    }
+.theme-bg-white {
+    background-color: #fff;
 }
 
 .bg-layout {
