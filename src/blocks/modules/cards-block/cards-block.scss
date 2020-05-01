@@ -1,6 +1,4 @@
 .cards-block {
-    border: 1px solid  red;
-
     &__stroke {
         @include row-flex();
         padding: 15px 0;
