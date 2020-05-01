@@ -1,0 +1,37 @@
+.horizontal-banner {
+    background: {
+        position: center;
+        size: cover;
+    }
+
+    &__content {
+        @include col();
+        @include size-md(24);
+        display: flex;
+        flex-direction: column;
+        padding: 50px 0;
+    }
+
+    &__time {
+        background-color: #e3935e;
+        font: {
+            family: $font-sfui-text-light;
+            size: 12px;
+        }
+        color: #fff;
+        align-self: flex-start;
+        padding: 6px 12px;
+    }
+
+    &__title {
+        background-color: #fff;
+        font: {
+            family: $font-sfui-display-regular;
+            size: 25px;
+        }
+        line-height: 30px;
+        align-self: flex-start;
+        color: #000;
+        padding: 6px 12px;
+    }
+}
