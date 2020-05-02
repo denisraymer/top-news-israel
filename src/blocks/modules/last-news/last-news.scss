@@ -13,15 +13,6 @@
         }
         color: #fff;
         padding-bottom: 12px;
-
-        &-light {
-            line-height: 16px;
-            font: {
-                family: $font-sfui-text-light;
-                size: 15px;
-            }
-            color: #fff;
-        }
     }
 
     &__date {
@@ -31,6 +22,15 @@
         }
         color: #bcd1f5;
         margin-bottom: 7px;
+    }
+
+    &__link {
+        line-height: 16px;
+        font: {
+            family: $font-sfui-text-light;
+            size: 15px;
+        }
+        color: #fff;
     }
 
     &__item {
