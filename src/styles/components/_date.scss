@@ -1,0 +1,10 @@
+.date {
+    display: block;
+    text-transform: uppercase;
+    align-self: flex-start;
+    font: {
+        family: $font-sf-ui-text-regular;
+        size: 8px;
+    }
+    color: #a7a7a7;
+}
