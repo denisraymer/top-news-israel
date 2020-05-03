@@ -1,0 +1,53 @@
+.special-project {
+    @include col();
+    @include size-md(6);
+    border-radius: 3px;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 40px 5px 20px 5px;
+
+    &__picture {
+        border-radius: 50%;
+        width: 200px;
+        height: 200px;
+        object-fit: none;
+        align-self: center;
+    }
+
+    &__title-middle {
+        text-align: center;
+    }
+
+    &__picture-block {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+    }
+
+    &__icon {
+        border-radius: 50%;
+        border: 2px solid #fff;
+        background-color: #e3935e;
+        width: 45px;
+        height: 45px;
+        position: absolute;
+        left: 39px;
+        top: 0;
+    }
+
+    &__date {
+        text-transform: uppercase;
+        align-self: center;
+        font: {
+            family: $font-sf-ui-text-regular;
+            size: 8px;
+        }
+        color: #a7a7a7;
+        margin-top: auto;
+    }
+
+    &__category {
+        margin: 30px 0 20px;
+    }
+}
