@@ -3,6 +3,7 @@
     display: flex;
 
     &__item {
+        list-style: none;
         text-transform: uppercase;
         font: {
             size: 12px;
