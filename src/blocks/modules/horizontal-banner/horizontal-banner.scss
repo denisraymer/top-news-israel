@@ -23,15 +23,9 @@
         padding: 6px 12px;
     }
 
-    &__title {
+    &__title-large {
         background-color: #fff;
-        font: {
-            family: $font-sfui-display-regular;
-            size: 25px;
-        }
-        line-height: 30px;
         align-self: flex-start;
-        color: #000;
         padding: 6px 12px;
     }
 }
