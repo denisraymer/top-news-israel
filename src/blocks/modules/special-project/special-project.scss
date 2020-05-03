@@ -37,17 +37,12 @@
     }
 
     &__date {
-        text-transform: uppercase;
         align-self: center;
-        font: {
-            family: $font-sf-ui-text-regular;
-            size: 8px;
-        }
-        color: #a7a7a7;
         margin-top: auto;
     }
 
     &__category {
+        align-self: center;
         margin: 30px 0 20px;
     }
 }
