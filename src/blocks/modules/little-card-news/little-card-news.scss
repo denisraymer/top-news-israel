@@ -1,0 +1,32 @@
+.little-card-news {
+    border-radius: 3px;
+    background-image: linear-gradient(-210deg, #7eaaee 0%, #7eaaee 58%, #8cc4f4 100%);
+    width: 100%;
+    height: 242px;
+    max-height: 242px;
+    overflow: hidden;
+    align-self: flex-start;
+    position: relative;
+
+    &__images {
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+
+    &__content {
+        display: flex;
+        flex-direction: column;
+        padding: 15px 15px 20px 15px;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        top: 0;
+    }
+
+    &__title {
+        color: #fff;
+        margin-top: auto;
+    }
+}
