@@ -2,7 +2,7 @@
     @include col();
     @include size-md(6);
     border-radius: 3px;
-    background: #7eaaee;
+    background-image: linear-gradient(-210deg, #7eaaee 0%, #7eaaee 58%, #8cc4f4 100%);
     padding: 20px 15px 5px 15px;
 
     &__title {
