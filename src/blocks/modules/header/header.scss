@@ -18,6 +18,26 @@
         padding: 15px 0 20px;
     }
 
+    &__button-search {
+        border-radius: 50%;
+        width: 36px;
+        height: 36px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+        padding: 0;
+    }
+
+    &__button-search-icon {
+        width: 28px;
+        height: 28px;
+    }
+
+    &__button {
+        margin-right: 20px;
+    }
+
     &__chart {
         @extend %col-center;
     }
@@ -32,9 +52,5 @@
 
     &_content-center {
         justify-content: center;
-    }
-
-    &__button {
-        margin-right: 20px;
     }
 }

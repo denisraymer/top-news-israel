@@ -25,15 +25,23 @@
         position: relative;
     }
 
-    &__icon {
+    &__icon-block {
         border-radius: 50%;
         border: 2px solid #fff;
         background-color: #e3935e;
         width: 45px;
         height: 45px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         position: absolute;
         left: 39px;
         top: 0;
+    }
+
+    &__icon {
+        width: 26px;
+        height: 26px;
     }
 
     &__date {
