@@ -1,0 +1,23 @@
+.footer {
+    border-top: 1px solid #6e9fe9;
+    @include container-full();
+
+    .number-release {
+        text-transform: uppercase;
+        text-align: center;
+        letter-spacing: 1px;
+        font: {
+            family: $font-sfui-display-light;
+            size: 14px;
+        }
+        color: #6e9fe9;
+        padding: 15px 0;
+
+        span {
+            font: {
+                family: $font-sfui-display-semi-bold;
+                size: 14px;
+            }
+        }
+    }
+}
