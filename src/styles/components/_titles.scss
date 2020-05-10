@@ -5,6 +5,13 @@
     }
     line-height: 30px;
     color: #000000;
+
+    &__bold {
+        font: {
+            family: $font-sfui-display-semi-bold;
+            size: 25px;
+        }
+    }
 }
 
 .title-middle {
