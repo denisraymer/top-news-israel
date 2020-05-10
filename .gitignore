@@ -2,9 +2,10 @@
 logs
 *.log
 npm-debug.log*
+lerna-debug.log*
 yarn-debug.log*
 yarn-error.log*
-lerna-debug.log*
+yarn.lock*
 
 # Diagnostic reports (https://nodejs.org/api/report.html)
 report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
@@ -102,3 +103,8 @@ dist
 
 # TernJS port file
 .tern-port
+
+.idea/
+src/styles/.sass-cache
+src/styles/main.css
+src/styles/main.css.map

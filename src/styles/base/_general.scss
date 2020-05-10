@@ -1,0 +1,34 @@
+h1, h2, h3, h4, h5, h6, ul {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    background-color: $bg-color;
+    font-family: $font-sf-ui-text-regular;
+    color: #000;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.container {
+    @include container();
+    @include sm(max-width, rem(510));
+    @include md(max-width, rem(690));
+    @include lg(max-width, rem(930));
+    @include xl(max-width, rem(1190));
+}
+
+.theme-bg-white {
+    background-color: #fff;
+}
+
+.bg-layout {
+    //background: url('../../img/bg-layout.png') no-repeat top;
+    background-size: auto;
+    height: 3000px;
+}

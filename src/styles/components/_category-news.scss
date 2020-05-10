@@ -1,0 +1,21 @@
+.category {
+    border-radius: 3px;
+    align-self: flex-start;
+    text-transform: uppercase;
+    font: {
+        family: $font-sf-ui-text-regular;
+        size: 12px;
+    }
+    padding: 8px 16px 6px;
+
+    &_theme_orange {
+        background-color: #fff4f0;
+        color: #e3935e;
+    }
+
+    &_theme_blue {
+        background-color: #7eaaee;
+        color: #fff;
+        padding: 6px 14px 4px;
+    }
+}

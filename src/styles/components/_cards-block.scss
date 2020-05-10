@@ -1,0 +1,15 @@
+.cards-block {
+    &__stroke {
+        @include row-flex();
+        padding: 15px 0;
+    }
+
+    &__cell-vertical {
+        @include col();
+        @include size-md(6);
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+}

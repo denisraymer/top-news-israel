@@ -1,0 +1,23 @@
+.advertising {
+    @include col();
+    @include size-md(6);
+    border-radius: 3px;
+    background-color: #fff;
+    display: flex;
+    overflow: hidden;
+
+    .advertising__link {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    &__text {
+        align-self: center;
+        font: {
+            family: $font-sf-ui-text-regular;
+            size: 18px;
+        }
+        color: #bebebe;
+    }
+}

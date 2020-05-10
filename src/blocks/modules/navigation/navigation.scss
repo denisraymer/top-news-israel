@@ -1,0 +1,19 @@
+.navigation {
+    border-top: 1px solid #f4f8ff;
+    display: flex;
+
+    &__item {
+        list-style: none;
+        text-transform: uppercase;
+        font: {
+            size: 12px;
+            family: $font-sf-ui-text-bold;
+        }
+        margin-right: 45px;
+    }
+
+    &__link {
+        display: block;
+        padding: 20px 0;
+    }
+}
