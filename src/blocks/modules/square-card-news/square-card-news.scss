@@ -1,0 +1,82 @@
+.square-card-news {
+    border-radius: 3px;
+    background-image: linear-gradient(-210deg, #7eaaee 0%, #7eaaee 58%, #8cc4f4 100%);
+    overflow: hidden;
+    position: relative;
+
+    &-large-size {
+        @include col();
+        @include size-md(12);
+    }
+
+    &-small-size {
+        width: 100%;
+        height: 270px;
+        max-height: 270px;
+        align-self: flex-start;
+
+        .square-card-news__date {
+            display: none;
+        }
+    }
+
+    &-average-size {
+        @include col();
+        @include size-md(6);
+    }
+
+    &-without-image {
+        background-color: #fff;
+        background-image: none;
+        color: #000;
+
+        .square-card-news__title,
+        .square-card-news__footer {
+            color: #000;
+        }
+    }
+
+    &__content {
+        display: flex;
+        flex-direction: column;
+        padding: 15px 15px 20px 15px;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        top: 0;
+    }
+
+    &__image {
+        width: 100%;
+        height: 100%;
+    }
+
+    &__title {
+        color: #fff;
+        margin-top: auto;
+    }
+
+    &__category {
+        z-index: 2;
+        position: absolute;
+        left: 15px;
+        top: 15px;
+    }
+
+    &__link {
+        z-index: 1;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        top: 0;
+    }
+
+    &__footer {
+        width: 100%;
+        color: #fff;
+        align-self: flex-end;
+        margin-top: 30px;
+    }
+}
