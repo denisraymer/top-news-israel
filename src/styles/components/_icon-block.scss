@@ -1,0 +1,12 @@
+.icon-block {
+    font: {
+        family: $font-sf-ui-text-regular;
+        size: 14px;
+    }
+    &__icon {
+        width: 26px;
+        height: 26px;
+        vertical-align: middle;
+        margin-right: 0;
+    }
+}

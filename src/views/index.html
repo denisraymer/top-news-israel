@@ -41,30 +41,80 @@
                 @@include("../blocks/modules/last-news/last-news.html")
                 @@include("../blocks/modules/special-project/special-project.html")
                 <div class="cards-block__cell-vertical">
-                    <div class="little-card-news">
-                        <!--suppress HtmlUnknownTarget -->
-                        <img alt="news" class="little-card-news__images" src="./img/news-preview/news-pickture-01.png">
-                        <div class="little-card-news__content">
-                            <a class="category category_theme_blue" href="#">путешествия</a>
-                            <a class="title-small little-card-news__title" href="#">
+                    <div class="square-card-news square-card-news-small-size">
+                        <a class="square-card-news__link" href="#"></a>
+                        <img alt="news" class="square-card-news__image"
+                             src="./img/news-preview/news-pickture-01.png">
+                        <div class="square-card-news__content">
+                            <a class="category category_theme_blue square-card-news__category">путешествия</a>
+                            <div class="title-small square-card-news__title">
                                 <span class="date">4 часа назад</span>
                                 Пасса жир поблагодарил пилотов, отказавшихся сажать самолет в Ростове
-                            </a>
+                            </div>
                         </div>
                     </div>
-                    <div class="little-card-news">
-                        <!--suppress HtmlUnknownTarget -->
-                        <img alt="news" class="little-card-news__images" src="./img/news-preview/news-pickture-02.png">
-                        <div class="little-card-news__content">
-                            <a class="category category_theme_blue" href="#">деньги</a>
-                            <a class="title-small little-card-news__title" href="#">
+                    <div class="square-card-news square-card-news-small-size">
+                        <a class="square-card-news__link" href="#"></a>
+                        <img alt="news" class="square-card-news__image"
+                             src="./img/news-preview/news-pickture-02.png">
+                        <div class="square-card-news__content">
+                            <a class="category category_theme_blue square-card-news__category">деньги</a>
+                            <div class="title-small square-card-news__title">
                                 <span class="date">7 часов назад</span>
                                 Будет ли казино в городе Эйлате?
-                            </a>
+                            </div>
                         </div>
                     </div>
                 </div>
                 @@include("../blocks/modules/advertising/advertising.html")
+            </div>
+        </div>
+        <div class="cards-block">
+            <div class="cards-block__stroke">
+                @@include("../blocks/modules/average-card-news/average-card-news.html")
+                @@include("../blocks/modules/square-card-news/square-card-news.html")
+            </div>
+        </div>
+        <div class="cards-block">
+            <div class="cards-block__stroke">
+                <div class="square-card-news square-card-news-average-size">
+                    <a class="square-card-news__link" href="#"></a>
+                    <img alt="news" class="square-card-news__image"
+                         src="./img/news-preview/news-pickture-05.png">
+                    <div class="square-card-news__content">
+                        <a class="category category_theme_blue square-card-news__category">политика</a>
+                        <div class="title-small square-card-news__title">
+                            <span class="date">7 часов назад</span>
+                            Дональд Трамп — это… С кем сравнивают лидера республиканской гонки
+                        </div>
+                    </div>
+                </div>
+                <div class="cards-block__cell-vertical">
+                    <div class="square-card-news square-card-news-small-size square-card-news-without-image">
+                        <a class="square-card-news__link" href="#"></a>
+                        <div class="square-card-news__content">
+                            <a class="category category_theme_blue square-card-news__category">в городе</a>
+                            <div class="title-small square-card-news__title">
+                                <span class="date square-card-news__date">7 часов назад</span>
+                                Новости для студентов <span
+                                    class="title-small__bold">в Хайфе — проект «Нехедар бе Адар»</span>
+                            </div>
+                            <div class="news-card-footer square-card-news__footer">
+                                <div class="date news-card-footer__date">4 часа назад</div>
+                                <div class="news-card-footer__statistics">
+                                    <div class="icon-block">
+                                        <img alt="file" class="icon-block__icon"
+                                             src="./img/sprites/sprite.svg#comment"> 45
+                                    </div>
+                                    <div class="icon-block">
+                                        <img alt="file" class="icon-block__icon"
+                                             src="./img/sprites/sprite.svg#eye"> 13
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
