@@ -1,0 +1,15 @@
+.news-card-footer {
+    display: flex;
+    justify-content: space-between;
+
+    &__statistics {
+        width: 105px;
+        max-width: 105px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__date {
+        align-self: center;
+    }
+}

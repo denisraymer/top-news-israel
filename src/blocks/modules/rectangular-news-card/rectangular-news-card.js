@@ -1,4 +1,4 @@
-modules.define('little-card-news', ['i-bem-dom'], function(provide, bemDom) {
+modules.define('average-card-news', ['i-bem-dom'], function(provide, bemDom) {
 
 provide(bemDom.declBlock(this.name, {
     onSetMod: {

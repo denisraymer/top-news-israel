@@ -7,6 +7,23 @@
     flex-direction: column;
     padding: 40px 5px 20px 5px;
 
+    &_theme-blue {
+        background-image: linear-gradient(-210deg, #7eaaee 0%, #7eaaee 58%, #8cc4f4 100%);
+
+        .special-project__icon-block {
+            border-color: #7eaaee;
+            background-color: #fff;
+        }
+
+        .special-project__title-middle {
+            color: #fff;
+        }
+
+        .date {
+            color: #fff;
+        }
+    }
+
     &__picture {
         border-radius: 50%;
         width: 200px;

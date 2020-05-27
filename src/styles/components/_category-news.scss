@@ -11,11 +11,37 @@
     &_theme_orange {
         background-color: #fff4f0;
         color: #e3935e;
+        cursor: pointer;
+        transition: background-color .5s;
+
+        &:hover {
+            background-color: #fce0d6;
+            transition: background-color .5s;
+        }
     }
 
     &_theme_blue {
         background-color: #7eaaee;
         color: #fff;
+        cursor: pointer;
+        transition: background-color .5s;
         padding: 6px 14px 4px;
+
+        &:hover {
+            background-color: #4d8ae8;
+            transition: background-color .5s;
+        }
+    }
+
+    &_theme_white {
+        background-color: rgba(255, 255, 255, 0.12);
+        color: #fff;
+        cursor: pointer;
+        transition: background-color .5s;
+
+        &:hover {
+            background-color: rgba(255, 255, 255, 0.22);
+            transition: background-color .5s;
+        }
     }
 }
