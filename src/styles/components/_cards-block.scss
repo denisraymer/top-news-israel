@@ -1,7 +1,14 @@
 .cards-block {
     &__stroke {
         @include row-flex();
-        margin-top: 10px;
+
+        &_top-margin {
+            margin-top: 30px;
+        }
+
+        &_bottom-margin {
+            margin-bottom: 15px;
+        }
     }
 
     &__cell-vertical {
