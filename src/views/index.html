@@ -37,7 +37,7 @@
     @@include("../blocks/modules/horizontal-banner/horizontal-banner.html")
     <div class="container">
         <div class="cards-block">
-            <div class="cards-block__stroke">
+            <div class="cards-block__stroke cards-block__stroke_bottom-margin cards-block__stroke_top-margin">
                 @@include("../blocks/modules/last-news/last-news.html")
                 @@include("../blocks/modules/special-project/special-project.html")
                 <div class="cards-block__cell-vertical">
@@ -70,7 +70,7 @@
             </div>
         </div>
         <div class="cards-block">
-            <div class="cards-block__stroke">
+            <div class="cards-block__stroke cards-block__stroke_bottom-margin">
                 @@include("../blocks/modules/rectangular-news-card/rectangular-news-card.html")
                 @@include("../blocks/modules/square-card-news/square-card-news.html")
                 <div class="special-project special-project_theme-blue">
@@ -200,6 +200,9 @@
                     </div>
                 </div>
             </div>
+        </div>
+        <div class="news-control-buttons">
+            <button class="button news-control-buttons__button">Показать больше новостей</button>
         </div>
     </div>
 </div>

@@ -1,0 +1,13 @@
+.news-control-buttons {
+    display: flex;
+    justify-content: center;
+
+    &__button {
+        border-radius: 50px;
+        border: 1px solid #d8e4f8;
+        background-color: transparent;
+        color: #769fe2;
+        padding: 15px 30px;
+        margin: 40px 0;
+    }
+}
