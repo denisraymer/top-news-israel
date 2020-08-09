@@ -25,6 +25,10 @@
         &_bottom-margin {
             margin-bottom: 15px;
         }
+
+        &_space-between {
+            justify-content: space-between;
+        }
     }
 
     &__cell-vertical {
