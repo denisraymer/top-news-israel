@@ -55,8 +55,55 @@
 
     &__description {
         @include col();
-        @include size-md(16);
+        @include size-xl(16);
         font-family: $font-sf-ui-text-regular;
         padding: 10px 0 10px 12px;
+    }
+
+    &__navigation {
+        @include col();
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    &__item {
+        margin-right: 41px;
+        position: relative;
+
+        &:after {
+            content: '';
+            background-color: #cbdfff;
+            width: 1px;
+            height: 26px;
+            display: block;
+            position: absolute;
+            bottom: 0;
+            right: -20px;
+            top: -4px;
+        }
+
+        &:last-child {
+            margin-right: 0;
+            &:after {
+                display: none;
+            }
+        }
+    }
+
+    &__link {
+        font: {
+            family: $font-sf-ui-text-regular;
+            size: 15px;
+        }
+        display: flex;
+        align-items: center;
+        color: #769fe2;
+    }
+
+    &__icon {
+        width: 16px;
+        height: 16px;
+        object-fit: cover;
+        margin-right: 8px;
     }
 }
