@@ -4,6 +4,17 @@
         padding: 30px 0 50px 0;
     }
 
+    &_theme-white {
+        .cards-block__description {
+            color: #fff;
+        }
+
+        .cards-block__title {
+            border-right: 1px solid #ffffff8c;
+            color: #fff;
+        }
+    }
+
     &__stroke {
         @include row-flex();
 
@@ -31,12 +42,10 @@
 
     &__title {
         @include col();
-        border-right: 1px solid #ffffff8c;
         font: {
             family: $font-als-schlange;
             size: 30px;
         }
-        color: #fff;
         padding: 10px 25px 10px 0;
     }
 
@@ -44,7 +53,6 @@
         @include col();
         @include size-md(16);
         font-family: $font-sf-ui-text-regular;
-        color: #fff;
         padding: 10px 0 10px 12px;
     }
 }
