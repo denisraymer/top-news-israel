@@ -25,10 +25,6 @@
         &_bottom-margin {
             margin-bottom: 15px;
         }
-
-        &_space-between {
-            justify-content: space-between;
-        }
     }
 
     &__cell-vertical {
@@ -41,11 +37,17 @@
     }
 
     &__header {
+        @include col();
+        @include size-xl(24);
+        display: flex;
         margin-bottom: 30px;
+
+        &_space-between {
+            //justify-content: space-between;
+        }
     }
 
     &__title {
-        @include col();
         font: {
             family: $font-als-schlange;
             size: 30px;
@@ -54,14 +56,12 @@
     }
 
     &__description {
-        @include col();
-        @include size-xl(16);
+        max-width: 600px;
         font-family: $font-sf-ui-text-regular;
-        padding: 10px 0 10px 12px;
+        padding: 10px 0 10px 25px;
     }
 
     &__navigation {
-        @include col();
         justify-content: flex-end;
         align-items: center;
     }
