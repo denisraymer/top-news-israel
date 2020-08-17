@@ -33,7 +33,7 @@
         }
     }
 
-    &_theme_white {
+    &_theme_rgb-white {
         background-color: rgba(255, 255, 255, 0.12);
         color: #fff;
         cursor: pointer;
@@ -41,6 +41,18 @@
 
         &:hover {
             background-color: rgba(255, 255, 255, 0.22);
+            transition: background-color .5s;
+        }
+    }
+
+    &_theme_white {
+        background-color: #fff;
+        color: #769fe2;
+        cursor: pointer;
+        transition: background-color .5s;
+
+        &:hover {
+            background-color: #84b0fc21;
             transition: background-color .5s;
         }
     }
