@@ -82,7 +82,7 @@
                         <img alt="news" class="special-project__picture"
                              src="./img/news-preview/special-project_01.png">
                     </div>
-                    <a class="category category_theme_white special-project__category" href="#">лайфхак жителю</a>
+                    <a class="category category_theme_rgb-white special-project__category" href="#">лайфхак жителю</a>
                     <a class="title-middle special-project__title-middle" href="#">
                         Как подтвердить <span class="title-middle__bold">водительские права в Израиле?</span>
                     </a>
@@ -336,11 +336,22 @@
     @@include("../blocks/modules/popular-discussions/popular-discussions.html")
     <div class="container">
         <div class="cards-block">
-            <div class="cards-block__stroke cards-block__stroke_top-margin">
-                <div class="cards-block__header cards-block__header_space-between">
+            <div class="cards-block__stroke">
+                <div class="cards-block__header cards-block__header_border-top">
                     <div class="cards-block__title">Туризм</div>
-                    <ul class="navigation cards-block__navigation">
-                        <li class="cards-block__item">
+                    <ul class="navigation cards-block__categories">
+                        <li class="cards-block__categories-item">
+                            <a class="category category_theme_white" href="#">Архитектура</a>
+                        </li>
+                        <li class="cards-block__categories-item">
+                            <a class="category category_theme_white" href="#">В городе</a>
+                        </li>
+                        <li class="cards-block__categories-item">
+                            <a class="category category_theme_white" href="#">Деньги</a>
+                        </li>
+                    </ul>
+                    <ul class="navigation cards-block__navigation cards-block__header_element-right">
+                        <li class="cards-block__navigation-item">
                             <a class="cards-block__link" href="#">
                                 <img alt="flag" class="cards-block__icon" src="./img/sprites/sprite.svg#blue-envelope">
                                 Подписаться на эту тему
