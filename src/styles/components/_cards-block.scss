@@ -12,6 +12,10 @@
         .cards-block__title {
             border-right: 1px solid #ffffff8c;
             color: #fff;
+
+            &-border-none {
+                border-right: 1px solid transparent;
+            }
         }
     }
 
