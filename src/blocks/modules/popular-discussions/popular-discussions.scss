@@ -1,0 +1,76 @@
+.popular-discussions {
+    width: 100%;
+
+    &__card {
+        @include col();
+        @include size-xl(6);
+        border-radius: 6px;
+        background-color: #fff;
+        display: flex;
+        position: relative;
+        padding: 20px 10px;
+        margin-bottom: 10px;
+    }
+
+    &__link {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        top: 0;
+    }
+
+    &__image-block {
+        width: 70px;
+        height: 70px;
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-end;
+        margin-right: 10px;
+        position: relative;
+    }
+
+    &__counter {
+        border-radius: 50px;
+        border: 1px solid #fff;
+        background-color: #769fe2;
+        text-align: center;
+        width: 28px;
+        height: 20px;
+        color: #fff;
+        font: {
+            family: $font-sf-ui-text-regular;
+            size: 12px;
+        }
+        padding-top: 8px;
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+
+    &__image {
+        border-radius: 50px;
+        width: 62px;
+        height: 62px;
+        object-fit: cover;
+    }
+
+    &__title {
+        font: {
+            family: $font-sf-ui-text-regular;
+            size: 16px;
+        }
+        color: #00000080;
+        margin-bottom: 8px;
+    }
+
+    &__description {
+        height: 42px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        font: {
+            family: $font-sfui-display-light;
+            size: 18px;
+        }
+    }
+}

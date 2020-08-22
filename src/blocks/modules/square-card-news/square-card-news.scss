@@ -1,19 +1,25 @@
 .square-card-news {
+    position: relative;
+    overflow: hidden;
     border-radius: 3px;
     background-image: linear-gradient(-210deg, #7eaaee 0%, #7eaaee 58%, #8cc4f4 100%);
-    overflow: hidden;
-    position: relative;
 
     &-large-size {
         @include col();
         @include size-md(12);
+
+        .square-card-news__title {
+            font-size: 25px;
+        }
     }
 
     &-small-size {
+        @include col();
+        @include size-md(6);
+        align-self: flex-start;
         width: 100%;
         height: 270px;
         max-height: 270px;
-        align-self: flex-start;
     }
 
     &-average-size {
@@ -26,8 +32,7 @@
         background-image: none;
         color: #000;
 
-        .square-card-news__title,
-        .square-card-news__footer {
+        .square-card-news__title, .square-card-news__footer {
             color: #000;
         }
     }
@@ -35,12 +40,12 @@
     &__content {
         display: flex;
         flex-direction: column;
-        padding: 15px 15px 20px 15px;
         position: absolute;
-        bottom: 0;
-        right: 0;
-        left: 0;
         top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        padding: 15px 15px 20px 15px;
     }
 
     &__image {
@@ -54,25 +59,25 @@
     }
 
     &__category {
-        z-index: 2;
         position: absolute;
-        left: 15px;
+        z-index: 2;
         top: 15px;
+        left: 15px;
     }
 
     &__link {
-        z-index: 1;
         position: absolute;
-        bottom: 0;
-        right: 0;
-        left: 0;
+        z-index: 1;
         top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
     }
 
     &__footer {
+        align-self: flex-end;
         width: 100%;
         color: #fff;
-        align-self: flex-end;
         margin-top: 30px;
     }
 }

@@ -2,11 +2,38 @@
     display: flex;
     justify-content: space-between;
 
+    &-column {
+        flex-direction: column;
+    }
+
     &__statistics {
         width: 105px;
         max-width: 105px;
         display: flex;
         justify-content: space-between;
+    }
+
+    &__title {
+        width: 100%;
+        text-align: center;
+        font: {
+            family: $font-sfui-display-semi-bold;
+            size: 16px;
+        }
+    }
+
+    &__status {
+        text-align: center;
+        font: {
+            family: $font-sfui-display-regular;
+            size: 16px;
+        }
+        color: #b0c2d9;
+        margin-top: 4px;
+    }
+
+    &__link {
+        color: #4d8ae8;
     }
 
     &__date {

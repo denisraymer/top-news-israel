@@ -15,6 +15,10 @@ a {
     color: #000;
 }
 
+li {
+    list-style: none;
+}
+
 .container {
     @include container();
     @include sm(max-width, rem(510));
@@ -27,8 +31,20 @@ a {
     background-color: #fff;
 }
 
+.theme-bg-gradient {
+    background-image: linear-gradient(-210deg, #7eaaee 0%, #7eaaee 58%, #8cc4f4 100%);
+}
+
+.theme-bg-gradient-01 {
+    background-image: linear-gradient(-213deg, #ac628f 0%, #d68167 100%);
+}
+
+.theme-bg-gradient-02 {
+    background-image: linear-gradient(41deg, #6673d3 0%, #d45e64 100%);
+}
+
 .bg-layout {
     //background: url('../../img/bg-layout.png') no-repeat top;
     background-size: auto;
-    height: 3000px;
+    min-height: 100vh;
 }

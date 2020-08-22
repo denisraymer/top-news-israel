@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<!--suppress HtmlUnknownTarget -->
 <html lang="ru">
 <head>
     <meta charset="utf-8">
@@ -37,7 +38,7 @@
     @@include("../blocks/modules/horizontal-banner/horizontal-banner.html")
     <div class="container">
         <div class="cards-block">
-            <div class="cards-block__stroke">
+            <div class="cards-block__stroke cards-block__stroke_bottom-margin cards-block__stroke_top-margin">
                 @@include("../blocks/modules/last-news/last-news.html")
                 @@include("../blocks/modules/special-project/special-project.html")
                 <div class="cards-block__cell-vertical">
@@ -70,7 +71,7 @@
             </div>
         </div>
         <div class="cards-block">
-            <div class="cards-block__stroke">
+            <div class="cards-block__stroke cards-block__stroke_bottom-margin">
                 @@include("../blocks/modules/rectangular-news-card/rectangular-news-card.html")
                 @@include("../blocks/modules/square-card-news/square-card-news.html")
                 <div class="special-project special-project_theme-blue">
@@ -82,7 +83,7 @@
                         <img alt="news" class="special-project__picture"
                              src="./img/news-preview/special-project_01.png">
                     </div>
-                    <a class="category category_theme_white special-project__category" href="#">лайфхак жителю</a>
+                    <a class="category category_theme_rgb-white special-project__category" href="#">лайфхак жителю</a>
                     <a class="title-middle special-project__title-middle" href="#">
                         Как подтвердить <span class="title-middle__bold">водительские права в Израиле?</span>
                     </a>
@@ -159,7 +160,7 @@
                         Евгений, хозяин квартиры, живёт в ней с 2008 года. Два года назад он понял, что пришло время
                         ремонта: кроме обновления интерьера, стояли и важные инфраструктурные задачи.
                     </div>
-                    <div class="news-card-footer rectangular-news-card__footer">
+                    <div class="news-card-footer rectangular-news-card__news-card-footer">
                         <div class="news-card-footer__statistics">
                             <div class="icon-block">
                                 <img alt="file" class="icon-block__icon" src="./img/sprites/sprite.svg#comment"> 45
@@ -187,7 +188,378 @@
                         Стандартные Mini и Micro-sim выполняют функции уникального идентификатора,
                         позволяющего абоненту регистрироваться в сетях оператора.
                     </div>
-                    <div class="news-card-footer rectangular-news-card__footer">
+                    <div class="news-card-footer rectangular-news-card__news-card-footer">
+                        <div class="news-card-footer__statistics">
+                            <div class="icon-block">
+                                <img alt="file" class="icon-block__icon" src="./img/sprites/sprite.svg#comment"> 45
+                            </div>
+                            <div class="icon-block">
+                                <img alt="file" class="icon-block__icon" src="./img/sprites/sprite.svg#eye"> 13
+                            </div>
+                        </div>
+                        <div class="date news-card-footer__date">4 часа назад</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="news-control-buttons">
+            <button class="button news-control-buttons__button">Показать больше новостей</button>
+        </div>
+    </div>
+    <div class="container-full cards-block__fluid theme-bg-gradient-01">
+        <div class="container">
+            <div class="cards-block cards-block_theme-white">
+                <div class="cards-block__stroke">
+                    <div class="cards-block__header">
+                        <div class="cards-block__title">Отдых не за горами</div>
+                        <div class="cards-block__description">
+                            Если Вам интересно узнать, как будет выглядеть Тель Авив если наступит зомби апокалипсис,
+                            приходите 25 марта в полдень на Кикар аМедина.
+                        </div>
+                    </div>
+                </div>
+                <div class="cards-block__stroke">
+                    <div class="square-card-news square-card-news-large-size">
+                        <a class="square-card-news__link" href="#"></a>
+                        <img alt="news" class="square-card-news__image" src="./img/news-preview/news-pickture-09.png">
+                        <div class="square-card-news__content">
+                            <a class="category category_theme_blue square-card-news__category">политика</a>
+                            <div class="title-small square-card-news__title">
+                                Zombie Walk Tel Aviv» — Day Edition 2016 в эти выходные в Израиле
+                            </div>
+                            <div class="news-card-footer square-card-news__footer">
+                                <div class="date news-card-footer__date">4 часа назад</div>
+                                <div class="news-card-footer__statistics">
+                                    <div class="icon-block">
+                                        <img alt="file" class="icon-block__icon"
+                                             src="./img/sprites/sprite.svg#white-comment"> 45
+                                    </div>
+                                    <div class="icon-block">
+                                        <img alt="file" class="icon-block__icon"
+                                             src="./img/sprites/sprite.svg#white-eye"> 13
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cards-block__cell-vertical">
+                        <div class="square-card-news square-card-news-small-size">
+                            <a class="square-card-news__link" href="#"></a>
+                            <img alt="news" class="square-card-news__image"
+                                 src="./img/news-preview/news-pickture-10.png">
+                            <div class="square-card-news__content">
+                                <a class="category category_theme_blue square-card-news__category">политика</a>
+                                <div class="title-small square-card-news__title">
+                                    <span class="date square-card-news__date">7 часов назад</span>
+                                    Куда пойти на День Святого Патрика?
+                                </div>
+                            </div>
+                        </div>
+                        <div class="square-card-news square-card-news-small-size square-card-news-without-image">
+                            <a class="square-card-news__link" href="#"></a>
+                            <div class="square-card-news__content">
+                                <a class="category category_theme_blue square-card-news__category">в городе</a>
+                                <div class="title-small square-card-news__title">
+                                    <span class="date square-card-news__date">7 часов назад</span>
+                                    Новости для студентов <span
+                                        class="title-small__bold">в Хайфе — проект «Нехедар бе Адар»</span>
+                                </div>
+                                <div class="news-card-footer square-card-news__footer">
+                                    <div class="date news-card-footer__date">4 часа назад</div>
+                                    <div class="news-card-footer__statistics">
+                                        <div class="icon-block">
+                                            <img alt="file" class="icon-block__icon"
+                                                 src="./img/sprites/sprite.svg#comment"> 45
+                                        </div>
+                                        <div class="icon-block">
+                                            <img alt="file" class="icon-block__icon"
+                                                 src="./img/sprites/sprite.svg#eye"> 13
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cards-block__cell-vertical">
+                        <div class="square-card-news square-card-news-small-size square-card-news-without-image">
+                            <a class="square-card-news__link" href="#"></a>
+                            <div class="square-card-news__content">
+                                <a class="category category_theme_blue square-card-news__category">в городе</a>
+                                <div class="title-small square-card-news__title">
+                                    <span class="date square-card-news__date">7 часов назад</span>
+                                    Новости для студентов <span
+                                        class="title-small__bold">в Хайфе — проект «Нехедар бе Адар»</span>
+                                </div>
+                                <div class="news-card-footer square-card-news__footer">
+                                    <div class="date news-card-footer__date">4 часа назад</div>
+                                    <div class="news-card-footer__statistics">
+                                        <div class="icon-block">
+                                            <img alt="file" class="icon-block__icon"
+                                                 src="./img/sprites/sprite.svg#comment"> 45
+                                        </div>
+                                        <div class="icon-block">
+                                            <img alt="file" class="icon-block__icon"
+                                                 src="./img/sprites/sprite.svg#eye"> 13
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="square-card-news square-card-news-small-size square-card-news-without-image">
+                            <a class="square-card-news__link" href="#"></a>
+                            <div class="square-card-news__content">
+                                <a class="category category_theme_blue square-card-news__category">в городе</a>
+                                <div class="title-small square-card-news__title">
+                                    <span class="date square-card-news__date">7 часов назад</span>
+                                    Новости для студентов <span
+                                        class="title-small__bold">в Хайфе — проект «Нехедар бе Адар»</span>
+                                </div>
+                                <div class="news-card-footer square-card-news__footer">
+                                    <div class="date news-card-footer__date">4 часа назад</div>
+                                    <div class="news-card-footer__statistics">
+                                        <div class="icon-block">
+                                            <img alt="file" class="icon-block__icon"
+                                                 src="./img/sprites/sprite.svg#comment"> 45
+                                        </div>
+                                        <div class="icon-block">
+                                            <img alt="file" class="icon-block__icon"
+                                                 src="./img/sprites/sprite.svg#eye"> 13
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    @@include("../blocks/modules/popular-discussions/popular-discussions.html")
+    <div class="container">
+        <div class="cards-block">
+            <div class="cards-block__stroke">
+                <div class="cards-block__header cards-block__header_border-top">
+                    <div class="cards-block__title">Туризм</div>
+                    <ul class="navigation cards-block__categories">
+                        <li class="cards-block__categories-item">
+                            <a class="category category_theme_white" href="#">Архитектура</a>
+                        </li>
+                        <li class="cards-block__categories-item">
+                            <a class="category category_theme_white" href="#">В городе</a>
+                        </li>
+                        <li class="cards-block__categories-item">
+                            <a class="category category_theme_white" href="#">Деньги</a>
+                        </li>
+                    </ul>
+                    <ul class="navigation cards-block__navigation cards-block__header_element-right">
+                        <li class="cards-block__navigation-item">
+                            <a class="cards-block__link" href="#">
+                                <img alt="flag" class="cards-block__icon" src="./img/sprites/sprite.svg#blue-envelope">
+                                Подписаться на эту тему
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="cards-block__stroke">
+                <div class="rectangular-news-card">
+                    <div class="rectangular-news-card__image-block">
+                        <div class="category category_theme_blue rectangular-news-card__category">архитектура</div>
+                        <!--suppress HtmlUnknownTarget -->
+                        <img alt="news" class="rectangular-news-card__image"
+                             src="./img/news-preview/news-pickture-07.png">
+                    </div>
+                    <div class="title-middle rectangular-news-card__title">
+                        <a href="#">
+                            <span class="title-middle__bold">Квартира в старом доме</span> с классической мебелью
+                            и плиткой азулежу
+                        </a>
+                    </div>
+                    <div class="rectangular-news-card__description">
+                        Евгений, хозяин квартиры, живёт в ней с 2008 года. Два года назад он понял, что пришло время
+                        ремонта: кроме обновления интерьера, стояли и важные инфраструктурные задачи.
+                    </div>
+                    <div class="news-card-footer rectangular-news-card__news-card-footer">
+                        <div class="news-card-footer__statistics">
+                            <div class="icon-block">
+                                <img alt="file" class="icon-block__icon" src="./img/sprites/sprite.svg#comment"> 45
+                            </div>
+                            <div class="icon-block">
+                                <img alt="file" class="icon-block__icon" src="./img/sprites/sprite.svg#eye"> 13
+                            </div>
+                        </div>
+                        <div class="date news-card-footer__date">4 часа назад</div>
+                    </div>
+                </div>
+                <div class="rectangular-news-card">
+                    <div class="rectangular-news-card__image-block">
+                        <div class="category category_theme_blue rectangular-news-card__category">инновации</div>
+                        <!--suppress HtmlUnknownTarget -->
+                        <img alt="news" class="rectangular-news-card__image"
+                             src="./img/news-preview/news-pickture-08.png">
+                    </div>
+                    <div class="title-middle rectangular-news-card__title">
+                        <a href="#">
+                            <span class="title-middle__bold">Страх перед слежкой</span> и технологии eSIM
+                        </a>
+                    </div>
+                    <div class="rectangular-news-card__description">
+                        Стандартные Mini и Micro-sim выполняют функции уникального идентификатора,
+                        позволяющего абоненту регистрироваться в сетях оператора.
+                    </div>
+                    <div class="news-card-footer rectangular-news-card__news-card-footer">
+                        <div class="news-card-footer__statistics">
+                            <div class="icon-block">
+                                <img alt="file" class="icon-block__icon" src="./img/sprites/sprite.svg#comment"> 45
+                            </div>
+                            <div class="icon-block">
+                                <img alt="file" class="icon-block__icon" src="./img/sprites/sprite.svg#eye"> 13
+                            </div>
+                        </div>
+                        <div class="date news-card-footer__date">4 часа назад</div>
+                    </div>
+                </div>
+                <div class="square-card-news square-card-news-large-size">
+                    <a class="square-card-news__link" href="#"></a>
+                    <img alt="news" class="square-card-news__image" src="./img/news-preview/news-pickture-09.png">
+                    <div class="square-card-news__content">
+                        <a class="category category_theme_blue square-card-news__category">политика</a>
+                        <div class="title-small square-card-news__title">
+                            Zombie Walk Tel Aviv» — Day Edition 2016 в эти выходные в Израиле
+                        </div>
+                        <div class="news-card-footer square-card-news__footer">
+                            <div class="date news-card-footer__date">4 часа назад</div>
+                            <div class="news-card-footer__statistics">
+                                <div class="icon-block">
+                                    <img alt="file" class="icon-block__icon"
+                                         src="./img/sprites/sprite.svg#white-comment"> 45
+                                </div>
+                                <div class="icon-block">
+                                    <img alt="file" class="icon-block__icon"
+                                         src="./img/sprites/sprite.svg#white-eye"> 13
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="cards-block">
+            <div class="cards-block__stroke">
+                <div class="cards-block__header cards-block__header_border-top">
+                    <div class="cards-block__title">Бизнес</div>
+                    <ul class="navigation cards-block__categories">
+                        <li class="cards-block__categories-item">
+                            <a class="category category_theme_white" href="#">Деньги</a>
+                        </li>
+                        <li class="cards-block__categories-item">
+                            <a class="category category_theme_white" href="#">Инвестиции</a>
+                        </li>
+                        <li class="cards-block__categories-item">
+                            <a class="category category_theme_white" href="#">Акции</a>
+                        </li>
+                    </ul>
+                    <ul class="navigation cards-block__navigation cards-block__header_element-right">
+                        <li class="cards-block__navigation-item">
+                            <a class="cards-block__link" href="#">
+                                <img alt="flag" class="cards-block__icon" src="./img/sprites/sprite.svg#blue-envelope">
+                                Подписаться на эту тему
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="cards-block__stroke">
+                <div class="square-card-news square-card-news-average-size">
+                    <a class="square-card-news__link" href="#"></a>
+                    <img alt="news" class="square-card-news__image"
+                         src="./img/news-preview/news-pickture-11.png">
+                    <div class="square-card-news__content">
+                        <a class="category category_theme_blue square-card-news__category">путешествия</a>
+                        <div class="title-small square-card-news__title">
+                            <span class="date">7 часов назад</span>
+                            Дональд Трамп — это… С кем сравнивают лидера республиканской гонки
+                        </div>
+                    </div>
+                </div>
+                <div class="rectangular-news-card">
+                    <div class="rectangular-news-card__image-block">
+                        <div class="category category_theme_blue rectangular-news-card__category">кино</div>
+                        <!--suppress HtmlUnknownTarget -->
+                        <img alt="news" class="rectangular-news-card__image"
+                             src="./img/news-preview/news-pickture-12.png">
+                    </div>
+                    <div class="title-middle rectangular-news-card__title">
+                        <a href="#">
+                            <span class="title-middle__bold">Квартира в старом доме</span> с классической мебелью и
+                            плиткой
+                        </a>
+                    </div>
+                    <div class="rectangular-news-card__description">
+                        Стандартные Mini и Micro-sim выполняют функции уникального идентификатора,
+                        позволяющего абоненту регистрироваться в сетях оператора.
+                    </div>
+                    <div class="news-card-footer rectangular-news-card__news-card-footer">
+                        <div class="news-card-footer__statistics">
+                            <div class="icon-block">
+                                <img alt="file" class="icon-block__icon" src="./img/sprites/sprite.svg#comment"> 45
+                            </div>
+                            <div class="icon-block">
+                                <img alt="file" class="icon-block__icon" src="./img/sprites/sprite.svg#eye"> 13
+                            </div>
+                        </div>
+                        <div class="date news-card-footer__date">4 часа назад</div>
+                    </div>
+                </div>
+                <div class="rectangular-news-card">
+                    <div class="rectangular-news-card__image-block">
+                        <div class="category category_theme_blue rectangular-news-card__category">политика</div>
+                        <!--suppress HtmlUnknownTarget -->
+                        <img alt="news" class="rectangular-news-card__image"
+                             src="./img/news-preview/news-pickture-13.png">
+                    </div>
+                    <div class="title-middle rectangular-news-card__title">
+                        <a href="#">
+                            <span class="title-middle__bold">Квартира в старом доме</span> с классической мебелью и
+                            плиткой
+                        </a>
+                    </div>
+                    <div class="rectangular-news-card__description">
+                        Стандартные Mini и Micro-sim выполняют функции уникального идентификатора,
+                        позволяющего абоненту регистрироваться в сетях оператора.
+                    </div>
+                    <div class="news-card-footer rectangular-news-card__news-card-footer">
+                        <div class="news-card-footer__statistics">
+                            <div class="icon-block">
+                                <img alt="file" class="icon-block__icon" src="./img/sprites/sprite.svg#comment"> 45
+                            </div>
+                            <div class="icon-block">
+                                <img alt="file" class="icon-block__icon" src="./img/sprites/sprite.svg#eye"> 13
+                            </div>
+                        </div>
+                        <div class="date news-card-footer__date">4 часа назад</div>
+                    </div>
+                </div>
+                <div class="rectangular-news-card">
+                    <div class="rectangular-news-card__image-block">
+                        <div class="category category_theme_blue rectangular-news-card__category">инновации</div>
+                        <!--suppress HtmlUnknownTarget -->
+                        <img alt="news" class="rectangular-news-card__image"
+                             src="./img/news-preview/news-pickture-14.png">
+                    </div>
+                    <div class="title-middle rectangular-news-card__title">
+                        <a href="#">
+                            <span class="title-middle__bold">Квартира в старом доме</span> с классической мебелью и
+                            плиткой
+                        </a>
+                    </div>
+                    <div class="rectangular-news-card__description">
+                        Стандартные Mini и Micro-sim выполняют функции уникального идентификатора,
+                        позволяющего абоненту регистрироваться в сетях оператора.
+                    </div>
+                    <div class="news-card-footer rectangular-news-card__news-card-footer">
                         <div class="news-card-footer__statistics">
                             <div class="icon-block">
                                 <img alt="file" class="icon-block__icon" src="./img/sprites/sprite.svg#comment"> 45
@@ -202,8 +574,228 @@
             </div>
         </div>
     </div>
+    <div class="container">
+        <div class="cards-block">
+            <div class="cards-block__stroke">
+                <div class="cards-block__header cards-block__header_border-top">
+                    <div class="cards-block__title">Мнения</div>
+                    <ul class="navigation cards-block__categories">
+                        <li class="cards-block__categories-item">
+                            <a class="category category_theme_white" href="#">Люди</a>
+                        </li>
+                        <li class="cards-block__categories-item">
+                            <a class="category category_theme_white" href="#">Политика</a>
+                        </li>
+                        <li class="cards-block__categories-item">
+                            <a class="category category_theme_white" href="#">Культура</a>
+                        </li>
+                    </ul>
+                    <ul class="navigation cards-block__navigation cards-block__header_element-right">
+                        <li class="cards-block__navigation-item">
+                            <a class="cards-block__link" href="#">
+                                <img alt="flag" class="cards-block__icon" src="./img/sprites/sprite.svg#blue-envelope">
+                                Подписаться на эту тему
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="cards-block__stroke cards-block__stroke_large-bottom-margin">
+                <div class="rectangular-news-card">
+                    <div class="rectangular-news-card__image-block">
+                        <!--suppress HtmlUnknownTarget -->
+                        <div class="rectangular-news-card__icon-block">
+                            <img alt="Icon" class="rectangular-news-card__icon"
+                                 src="./img/sprites/sprite.svg#white-quotes">
+                        </div>
+                        <img alt="news" class="rectangular-news-card__image rectangular-news-card__image-circle"
+                             src="./img/content/userpic/userpic-09.png">
+                    </div>
+                    <div class="title-middle rectangular-news-card__title rectangular-news-card__title-center">
+                        <a href="#">
+                            Вечный pop-up: <br> <span class="title-middle__bold">«Я считаю, что в сносе самостроев нет
+                            <br> ничего плохого»</span>
+                        </a>
+                    </div>
+                    <div class="news-card-footer news-card-footer-column rectangular-news-card__news-card-footer-large-indent">
+                        <div class="news-card-footer__title">
+                            <a class="news-card-footer__link" href="#">Кирилл Зайцев</a>
+                        </div>
+                        <div class="news-card-footer__status">Редактор этого сайта</div>
+                    </div>
+                </div>
+                <div class="rectangular-news-card">
+                    <div class="rectangular-news-card__image-block">
+                        <!--suppress HtmlUnknownTarget -->
+                        <div class="rectangular-news-card__icon-block">
+                            <img alt="Icon" class="rectangular-news-card__icon"
+                                 src="./img/sprites/sprite.svg#white-quotes">
+                        </div>
+                        <img alt="news" class="rectangular-news-card__image rectangular-news-card__image-circle"
+                             src="./img/content/userpic/userpic-10.png">
+                    </div>
+                    <div class="title-middle rectangular-news-card__title rectangular-news-card__title-center">
+                        <a href="#">
+                            <span class="title-middle__bold">Должен ли архитектор заботиться о маленьком человеке</span>
+                        </a>
+                    </div>
+                    <div class="news-card-footer news-card-footer-column rectangular-news-card__news-card-footer-large-indent">
+                        <div class="news-card-footer__title">
+                            <a class="news-card-footer__link" href="#">Елена Петровна</a>
+                        </div>
+                        <div class="news-card-footer__status">Архитектурный критик</div>
+                    </div>
+                </div>
+                <div class="rectangular-news-card">
+                    <div class="rectangular-news-card__image-block">
+                        <!--suppress HtmlUnknownTarget -->
+                        <div class="rectangular-news-card__icon-block">
+                            <img alt="Icon" class="rectangular-news-card__icon"
+                                 src="./img/sprites/sprite.svg#white-quotes">
+                        </div>
+                        <img alt="news" class="rectangular-news-card__image rectangular-news-card__image-circle"
+                             src="./img/content/userpic/userpic-11.jpg">
+                    </div>
+                    <div class="title-middle rectangular-news-card__title rectangular-news-card__title-center">
+                        <a href="#">
+                            <span class="title-middle__bold">Если в один день решат, что конкуренции между Marvel и DC не существует, </span>
+                            то вы узнаете об этом первыми
+                        </a>
+                    </div>
+                    <div class="news-card-footer news-card-footer-column rectangular-news-card__news-card-footer-large-indent">
+                        <div class="news-card-footer__title">
+                            <a class="news-card-footer__link" href="#">Екатерина Зефирова</a>
+                        </div>
+                        <div class="news-card-footer__status">Кино критик</div>
+                    </div>
+                </div>
+                <div class="rectangular-news-card">
+                    <div class="rectangular-news-card__image-block">
+                        <!--suppress HtmlUnknownTarget -->
+                        <div class="rectangular-news-card__icon-block">
+                            <img alt="Icon" class="rectangular-news-card__icon"
+                                 src="./img/sprites/sprite.svg#white-quotes">
+                        </div>
+                        <img alt="news" class="rectangular-news-card__image rectangular-news-card__image-circle"
+                             src="./img/content/userpic/userpic-12.jpg">
+                    </div>
+                    <div class="title-middle rectangular-news-card__title rectangular-news-card__title-center">
+                        <a href="#">
+                            <span class="title-middle__bold">Для столкновения двух массивных черных дыр</span> нужны
+                            миллиарды лет.
+                        </a>
+                    </div>
+                    <div class="news-card-footer news-card-footer-column rectangular-news-card__news-card-footer-large-indent">
+                        <div class="news-card-footer__title">
+                            <a class="news-card-footer__link" href="#">Саша Рич</a>
+                        </div>
+                        <div class="news-card-footer__status">Физик-ядерщик</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-full cards-block__fluid theme-bg-gradient-02">
+        <div class="container">
+            <div class="cards-block cards-block_theme-white">
+                <div class="cards-block__stroke">
+                    <div class="cards-block__header">
+                        <div class="cards-block__title cards-block__title-border-none">Горячее</div>
+                    </div>
+                </div>
+                <div class="cards-block__stroke">
+                    <div class="square-card-news square-card-news-small-size square-card-news-without-image">
+                        <a class="square-card-news__link" href="https://habr.com/ru/news/t/516180/" target="_blank"></a>
+                        <div class="square-card-news__content">
+                            <a class="category category_theme_blue square-card-news__category">технологии</a>
+                            <div class="title-small square-card-news__title">
+                                <span class="date square-card-news__date">7 часов назад</span>
+                                <span class="title-small__bold">Инженер популярно рассказал о рулевом колесе</span>
+                                современного болида Формулы 1
+                            </div>
+                            <div class="news-card-footer square-card-news__footer">
+                                <div class="date news-card-footer__date">4 часа назад</div>
+                                <div class="news-card-footer__statistics">
+                                    <div class="icon-block">
+                                        <img alt="file" class="icon-block__icon"
+                                             src="./img/sprites/sprite.svg#comment"> 45
+                                    </div>
+                                    <div class="icon-block">
+                                        <img alt="file" class="icon-block__icon"
+                                             src="./img/sprites/sprite.svg#eye"> 13
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="square-card-news square-card-news-small-size square-card-news-without-image">
+                        <a class="square-card-news__link" href="https://habr.com/ru/post/418481/" target="_blank"></a>
+                        <div class="square-card-news__content">
+                            <a class="category category_theme_blue square-card-news__category">в городе</a>
+                            <div class="title-small square-card-news__title">
+                                <span class="date square-card-news__date">7 часов назад</span>
+                                <span class="title-small__bold">Жизнь в Израиле</span> — некоторые моменты, связанные с
+                                IT
+                            </div>
+                            <div class="news-card-footer square-card-news__footer">
+                                <div class="date news-card-footer__date">4 часа назад</div>
+                                <div class="news-card-footer__statistics">
+                                    <div class="icon-block">
+                                        <img alt="file" class="icon-block__icon"
+                                             src="./img/sprites/sprite.svg#comment"> 45
+                                    </div>
+                                    <div class="icon-block">
+                                        <img alt="file" class="icon-block__icon"
+                                             src="./img/sprites/sprite.svg#eye"> 13
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="square-card-news square-card-news-small-size">
+                        <a class="square-card-news__link" href="https://habr.com/ru/post/464895/" target="_blank"></a>
+                        <img alt="news" class="square-card-news__image"
+                             src="./img/news-preview/news-pickture-15.png">
+                        <div class="square-card-news__content">
+                            <a class="category category_theme_blue square-card-news__category">политика</a>
+                            <div class="title-small square-card-news__title">
+                                <span class="date square-card-news__date">7 часов назад</span>
+                                Почему Израиль является локомотивом для развития автомобильных технологий
+                            </div>
+                        </div>
+                    </div>
+                    <div class="square-card-news square-card-news-small-size square-card-news-without-image">
+                        <a class="square-card-news__link" href="https://habr.com/ru/news/t/434376/" target="_blank"></a>
+                        <div class="square-card-news__content">
+                            <a class="category category_theme_blue square-card-news__category">в городе</a>
+                            <div class="title-small square-card-news__title">
+                                <span class="date square-card-news__date">7 часов назад</span>
+                                <span class="title-small__bold">«Яндекс»</span> испытает свой робомобиль в Израиле
+                            </div>
+                            <div class="news-card-footer square-card-news__footer">
+                                <div class="date news-card-footer__date">4 часа назад</div>
+                                <div class="news-card-footer__statistics">
+                                    <div class="icon-block">
+                                        <img alt="file" class="icon-block__icon"
+                                             src="./img/sprites/sprite.svg#comment"> 45
+                                    </div>
+                                    <div class="icon-block">
+                                        <img alt="file" class="icon-block__icon"
+                                             src="./img/sprites/sprite.svg#eye"> 13
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    @@include("../blocks/modules/footer/footer.html")
+    <div class="container">
+        @@include("../blocks/modules/navigation/navigation.html")
+    </div>
 </div>
-@@include("../blocks/modules/footer/footer.html")
 <script src="js/main.js"></script>
 <!--        <script src="js/vendor.js"></script>-->
 </body>

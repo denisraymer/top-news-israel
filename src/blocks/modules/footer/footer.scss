@@ -2,6 +2,51 @@
     border-top: 1px solid #6e9fe9;
     @include container-full();
 
+    &__content {
+        display: flex;
+        justify-content: space-between;
+        padding: 20px 0;
+    }
+
+    &__title {
+        text-align: center;
+        font: {
+            family: $font-intro-regular;
+            size: 21px;
+        }
+    }
+
+    &__copyright {
+        max-width: 600px;
+        font: {
+            family: $font-sfui-text-light;
+            size: 14px;
+        }
+        color: #b2c3df;
+    }
+
+    &__navigation {
+        display: flex;
+        align-items: center;
+        padding: 0 20px;
+    }
+
+    &__link {
+        font: {
+            family: $font-sf-ui-text-regular;
+            size: 14px;
+        }
+        color: #6aa2fc;
+    }
+
+    &__item {
+        margin-right: 40px;
+
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+
     .number-release {
         text-transform: uppercase;
         text-align: center;
