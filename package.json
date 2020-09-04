@@ -37,6 +37,7 @@
         "bem-tools-create": "bem-tools/bem-tools-create",
         "browser-sync": "^2.23.6",
         "del": "^4.1.1",
+        "gh-pages": "^2.2.0",
         "gulp": "^4.0.0",
         "gulp-autoprefixer": "^6.1.0",
         "gulp-clean-css": "^4.2.0",
@@ -54,7 +55,6 @@
         "gulp-svg-sprite": "^1.5.0",
         "gulp-watch": "^5.0.0",
         "gulp-webp": "^4.0.1",
-        "gh-pages": "^2.2.0",
         "husky": "^4.2.1",
         "imagemin-giflossy": "^5.1.10",
         "imagemin-jpeg-recompress": "^6.0.0",
@@ -72,7 +72,8 @@
         "yargs": "^13.2.4"
     },
     "dependencies": {
-        "smart-grid": "^2.1.2"
+        "smart-grid": "^2.1.2",
+        "sweetalert2": "^9.17.2"
     },
     "husky": {
         "hooks": {
