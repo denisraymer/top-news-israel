@@ -20,6 +20,10 @@
         width: 100%;
         height: 270px;
         max-height: 270px;
+
+        &_small-bottom-margin {
+            margin-bottom: 10px;
+        }
     }
 
     &-average-size {
@@ -51,6 +55,7 @@
     &__image {
         width: 100%;
         height: 100%;
+        object-fit: cover;
     }
 
     &__title {

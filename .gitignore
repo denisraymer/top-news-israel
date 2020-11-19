@@ -108,3 +108,4 @@ dist
 src/styles/.sass-cache
 src/styles/main.css
 src/styles/main.css.map
+src/styles/vendor/import/_smart-grid.scss
